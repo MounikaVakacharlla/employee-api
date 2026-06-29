@@ -1,0 +1,9 @@
+services:
+  employee-api:
+    image: employee-api:v1
+    container_name: employee-api-container
+
+    ports:
+      - "8000:8000"
+
+    restart: always
